@@ -1,14 +1,14 @@
 # Create a vector of 100 employees ("Employee 1", "Employee 2", ... "Employee 100)
-
+employees <-paste("Employee", 1:100)
 
 # Create a vector of 2014 salaries using the runif function
-
+salaries.2014 <- runif(100, 30,000, 95,000)
 
 # Create a vector of 2015 salaries that are typically higher than the 2014 salaires (use runif again)
-
+salaries.2015 <- salaries.2014 + runif(100)
 
 # Create a data.frame 'salaries' by combining the vectors you just made
-
+salaries <- data.fram(employees, salaries.2014, salaries.2014)
 
 # Create a column 'raise' that stores the size of the raise between 2014 and 2015
 
